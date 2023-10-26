@@ -29,12 +29,6 @@ public class Aereo extends Animal{
 		this.altitude = altitude;
 	}
 	
-
-	  /**
-	   * gets e sets dos atributos de o animal
-	   */
-
-	
 	public void voar() {
 		System.out.println("O animal está voando");
 	}
