@@ -31,6 +31,9 @@ public class Principal {
 		Aereo ar1= new Aereo("Coragyps atratus", "Macho", 3, 54.5);
 		Aereo ar2= new Aereo("Amazona aestiva", "fêmea", 7, 37.9);
 		
+		/**
+		 * testagem dos metodos e funcionalidades
+		 */
 	
  a2.comer();
  a1.comer();
