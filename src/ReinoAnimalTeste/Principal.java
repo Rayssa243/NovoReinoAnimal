@@ -26,7 +26,7 @@ public class Principal {
 		
 		Aquatico a2= new Aquatico("Pygocentrus natterer", "Macho", 3, "água doce", true);
 		
-		Terrestre t1 = new Terrestre("Felis catus", "Fêmea", 2, "Ásia", true);
+		Terrestre t1 = new Terrestre("Felis catus", "Fêmea", 2, "Asia", true);
 		
 		Terrestre t2 = new Terrestre("Hydrochoerus hydrochaeris", "Macho", 8, "América do Sul", true);
 		
