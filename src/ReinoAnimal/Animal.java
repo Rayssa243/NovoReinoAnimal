@@ -11,9 +11,13 @@ package ReinoAnimal;
  */
 public class Animal {
 
-	public String especie;
-	 public String sexo;
-	 public double nascimento;
+	
+	/**
+	 * atributos criados
+	 */
+	private String especie;
+	 private String sexo;
+	 private double nascimento;
 	
 	 static int contador=0;
 	 
@@ -48,6 +52,13 @@ public class Animal {
 	 * Faz o animal comer
 	 */
 	}
+	
+	/**
+	 * 
+	 * @param especie
+	 * @param sexo
+	 * @param nascimento
+	 */
 	public Animal(String especie, String sexo, double nascimento) {
 		super();
 		this.especie = especie;

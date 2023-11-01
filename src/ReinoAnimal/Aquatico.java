@@ -12,8 +12,16 @@ package ReinoAnimal;
  */
 public class Aquatico extends Animal{
 
-	public String tipoAgua;
-	 public boolean escamas;
+	private String tipoAgua;
+	private boolean escamas;
+	/**
+	 * 
+	 * @param especie
+	 * @param sexo
+	 * @param nascimento
+	 * @param tipoAgua
+	 * @param escamas
+	 */
 	
 	public Aquatico(String especie, String sexo, double nascimento, String tipoAgua, boolean escamas ) {
 		super(especie, sexo, nascimento);
@@ -67,10 +75,9 @@ public class Aquatico extends Animal{
 	}@Override
 	public void perfil() {
 	
-		System.out.println("Especie do Animal" + especie);
-		System.out.println("Sexo do Animal" + sexo);
-		System.out.println("Nascimento do Animal" + nascimento);
-		System.out.println("quantidade de Animais" + contador);
+		System.out.println("Especie do Animal" + getEspecie());
+		System.out.println("Sexo do Animal" + getSexo());
+		System.out.println("Nascimento do Animal" + getNascimento());
 		System.out.println("O animal Aquatico é do tipo de agua" + tipoAgua);
 		System.out.println("o animal Aquantico" + escamas + "escamas");
 		

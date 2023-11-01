@@ -12,12 +12,23 @@ package ReinoAnimal;
 
 public class Aereo extends Animal{
 	
-	public double altitude;
+	private double altitude;
 	
-
+	/**
+	 * 
+	 * @param especie
+	 * @param sexo
+	 * @param nascimento
+	 * @param altitude
+	 */
+	
 	public Aereo(String especie, String sexo, double nascimento, double altitude) {
 		super(especie, sexo, nascimento);
 		this.altitude = altitude;
+		
+		/**
+		 * Construtor
+		 */
 
 	}
 
@@ -37,15 +48,21 @@ public class Aereo extends Animal{
 	@Override
 	public void comer() {
 		System.out.println("O Animal Aereo está comendo");
+		
+		/** 
+		 * Faz o animal comer
+		 */
 
 	
 	}@Override
 	public void perfil() {
+		/**
+		 * metodo para imprimir informações
+		 */
 	
-		System.out.println("Especie do Animal" + especie);
-		System.out.println("Sexo do Animal" + sexo);
-		System.out.println("Nascimento do Animal" + nascimento);
-		System.out.println("quantidade de Animais" + contador);
+		System.out.println("Especie do Animal" + getEspecie());
+		System.out.println("Sexo do Animal" + getSexo());
+		System.out.println("Nascimento do Animal" + getNascimento());
 		System.out.println("O animal Aereo voa na altutede" + altitude);
 		
 	}

@@ -11,8 +11,17 @@ package ReinoAnimal;
  */
 public class Terrestre extends Animal{
 	
-	public String regiao;
-	public boolean pelagem;
+	private String regiao;
+	private boolean pelagem;
+	
+	/**
+	 * 
+	 * @param especie
+	 * @param sexo
+	 * @param nascimento
+	 * @param regiao
+	 * @param pelagem
+	 */
 	
 
 
@@ -67,10 +76,9 @@ public class Terrestre extends Animal{
 	}@Override
 	public void perfil() {
 	
-		System.out.println("Especie do Animal" + especie);
-		System.out.println("Sexo do Animal" + sexo);
-		System.out.println("Nascimento do Animal" + nascimento);
-		System.out.println("quantidade de Animais" + contador);
+		System.out.println("Especie do Animal" + getEspecie());
+		System.out.println("Sexo do Animal" + getSexo());
+		System.out.println("Nascimento do Animal" + getNascimento());
 		System.out.println("O animal Terrestre é da região" + regiao);
 		System.out.println("o animal Terrestre tem a pelagem" +  pelagem);
 		

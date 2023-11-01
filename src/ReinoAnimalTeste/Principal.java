@@ -19,7 +19,9 @@ import ReinoAnimal.Terrestre;
 public class Principal {
 	public static void main(String[] args) {
 		
-
+/**
+ * criação de objetos
+ */
 		Aquatico a1= new Aquatico("Carcharias taurus", "Femea", 7, "Salgada", false);
 		
 		Aquatico a2= new Aquatico("Pygocentrus natterer", "Macho", 3, "água doce", true);
