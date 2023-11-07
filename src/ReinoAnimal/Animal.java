@@ -21,6 +21,10 @@ public class Animal {
 	
 	 static int contador=0;
 	 
+	 /**
+	   * gets e sets dos atributos de o animal
+	   */
+	 
 		public String getEspecie() {
 			return especie;
 		}
@@ -40,17 +44,16 @@ public class Animal {
 			this.nascimento = nascimento;
 		}
 
-		  /**
-		   * gets e sets dos atributos de o animal
-		   */
+		  
 
+		/** 
+		 * Faz o animal comer
+		 */
 	
 	public void comer() {
 		System.out.println("O animal está comendo....");
 		
-	/** 
-	 * Faz o animal comer
-	 */
+	
 	}
 	
 	/**
@@ -81,20 +84,22 @@ public class Animal {
 
 	
 	}
+	
+	/**
+	 * aumenta 1 animal para o contador toda vez que é chamado
+	 */
 	private static void contar() {
 		contador++; 
 		
-		/**
-		 * aumenta 1 animal para o contador toda vez que é chamado
-		 */
 		
 }
 
+	/**
+	   * imprime o numero de animais cadastrados
+	   */
 		public void membros() {
 		System.out.println("Numero de animais criados:"+contador);
 		
-	  /**
-	   * imprime o numero de animais cadastrados
-	   */
+	  
 }
 	}

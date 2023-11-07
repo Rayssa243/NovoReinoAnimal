@@ -16,6 +16,8 @@ public class Aquatico extends Animal{
 	private boolean escamas;
 	/**
 	 * 
+	 * Metodo construtor 
+	 * 
 	 * @param especie
 	 * @param sexo
 	 * @param nascimento
@@ -23,17 +25,22 @@ public class Aquatico extends Animal{
 	 * @param escamas
 	 */
 	
+
+	
+	
 	public Aquatico(String especie, String sexo, double nascimento, String tipoAgua, boolean escamas ) {
 		super(especie, sexo, nascimento);
 		this.tipoAgua = tipoAgua;
 		this.escamas = escamas;
 		
 
-		/**
-		 * Metodo construtor
-		 */
 		
 	}
+	
+	/**
+	   * gets e sets dos atributos de o animal
+	   */
+
 
 	public String getTipoAgua() {
 		return tipoAgua;
@@ -52,26 +59,28 @@ public class Aquatico extends Animal{
 	}
 	
 
-	  /**
-	   * gets e sets dos atributos de o animal
-	   */
-
-	
+	  
+	/**
+	 * metodo para o animal nadas
+	 */
 	public void nadar() {
 		System.out.println("O animal está nadando...");
 		
-		/**
-		 * metodo para o animal nadas
-		 */
+		
 	}
+	
+	 /**
+     * metodo para o animal comer
+     */
 	
 	@Override
 	public void comer() {
 		System.out.println("O Animal aquatico está comendo");
-    /**
-     * metodo para o animal comer
-     */
-	
+   
+		/**
+		 * Imprime as informações sobre o animal
+		 */
+		
 	}@Override
 	public void perfil() {
 	
@@ -81,9 +90,7 @@ public class Aquatico extends Animal{
 		System.out.println("O animal Aquatico é do tipo de agua" + tipoAgua);
 		System.out.println("o animal Aquantico" + escamas + "escamas");
 		
-		/**
-		 * Imprime as informações sobre o animal
-		 */
+		
 	
 	}
 }

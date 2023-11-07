@@ -16,6 +16,8 @@ public class Terrestre extends Animal{
 	
 	/**
 	 * 
+	 *  Metodo construtor
+	 *  
 	 * @param especie
 	 * @param sexo
 	 * @param nascimento
@@ -31,10 +33,11 @@ public class Terrestre extends Animal{
 				this.pelagem = pelagem;
 				
 
-				/**
-				 * Metodo construtor
-				 */
+				
 	}
+	 /**
+	   * gets e sets dos atributos de o animal
+	   */
 
 	public String getRegiao() {
 		return regiao;
@@ -53,25 +56,27 @@ public class Terrestre extends Animal{
 	}
 	
 
-	  /**
-	   * gets e sets dos atributos de o animal
-	   */
+	 /**
+	  * metodo para o animal se mover
+	  */
 
 	public void mover(){
 		System.out.println("O animal está se movendo");
-		 /**
-		  * metodo para o animal se mover
-		  */
+		
 	}
 	
-	
+	 
+	 /**
+	  * metodo para o animal comer
+	  */
 	@Override
 	public void comer() {
 		System.out.println("O Animal Terrestres está comendo");
-		 /**
-		  * metodo para o animal comer
-		  */
+		
 
+		/**
+		 * Imprime as informações sobre o animal
+		 */
 	
 	}@Override
 	public void perfil() {
@@ -82,9 +87,7 @@ public class Terrestre extends Animal{
 		System.out.println("O animal Terrestre é da região" + regiao);
 		System.out.println("o animal Terrestre tem a pelagem" +  pelagem);
 		
-		/**
-		 * Imprime as informações sobre o animal
-		 */
+	
 	
 	}
 	

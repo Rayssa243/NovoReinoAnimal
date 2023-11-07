@@ -41,21 +41,22 @@ public class Aereo extends Animal{
 		System.out.println("O animal está voando");
 	}
 	
-	
+	/** 
+	 * Faz o animal comer
+	 */
+
+
 	@Override
 	public void comer() {
 		System.out.println("O Animal Aereo está comendo");
 		
-		/** 
-		 * Faz o animal comer
-		 */
-
-	
-	}@Override
-	public void perfil() {
+		
 		/**
 		 * metodo para imprimir informações
 		 */
+	}@Override
+	public void perfil() {
+		
 	
 		System.out.println("Especie do Animal" + getEspecie());
 		System.out.println("Sexo do Animal" + getSexo());
