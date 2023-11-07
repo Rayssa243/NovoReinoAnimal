@@ -54,6 +54,7 @@ public class Animal {
 	}
 	
 	/**
+	 * Metodo construtor
 	 * 
 	 * @param especie
 	 * @param sexo
@@ -66,19 +67,18 @@ public class Animal {
 		this.nascimento = nascimento;
 		contar();
 		
-		/**
-		 * Metodo construtor
-		 */
 	}
+	
+	/**
+	 * Imprime as informações sobre o animal
+	 */
 	public void perfil() {
 		System.out.println("Especie do Animal" + especie);
 		System.out.println("Sexo do Animal" + sexo);
 		System.out.println("Nascimento do Animal" + nascimento);
 		System.out.println("quantidade de Animais" + contador);
 		
-		/**
-		 * Imprime as informações sobre o animal
-		 */
+
 	
 	}
 	private static void contar() {

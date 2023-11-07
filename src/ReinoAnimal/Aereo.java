@@ -15,6 +15,7 @@ public class Aereo extends Animal{
 	private double altitude;
 	
 	/**
+	 * Construtor
 	 * 
 	 * @param especie
 	 * @param sexo
@@ -25,10 +26,6 @@ public class Aereo extends Animal{
 	public Aereo(String especie, String sexo, double nascimento, double altitude) {
 		super(especie, sexo, nascimento);
 		this.altitude = altitude;
-		
-		/**
-		 * Construtor
-		 */
 
 	}
 
